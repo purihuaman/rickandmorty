@@ -30,7 +30,7 @@ const Location = () => {
 								<CharacterCard
 									key={character.id}
 									name={character.name}
-									avatar={character.image}
+									avatar={character.avatar}
 									status={character.status}
 								/>
 							))}
